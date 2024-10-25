@@ -1,0 +1,5 @@
+SELECT SUM(weight) AS total_weight 
+FROM paper_weight 
+WHERE company_name = 'YourCompanyName' 
+AND YEAR(timestamp) = '2024' 
+AND MONTH(timestamp) = '9';
